@@ -25,6 +25,12 @@
     return patternCodePermanent.test(codePermanent);
   };
 
+  validator.isNip = function(nip) {
+    var patternNip;
+    patternNip = new RegExp('^[0-9]{5}$');
+    return patternNip.test(nip);
+  };
+
   exports = module.exports = validator;
 
 }).call(this);
