@@ -16,6 +16,10 @@
 
   console.log('Pas code permanent : ', !uqamValidator.isCodePermanent('GJ456789sdsa'));
 
+  console.log('Bon nip : ', uqamValidator.isNip('12345'));
+
+  console.log('Mauvais nip : ', !uqamValidator.isNip('12547845'));
+
 }).call(this);
 
 //# sourceMappingURL=pseudoTest.js.map
