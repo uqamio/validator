@@ -11,3 +11,6 @@ console.log('Pas code permanent : ', !uqamValidator.isCodePermanent('GJ456789sds
 
 console.log('Bon nip : ', uqamValidator.isNip('12345'))
 console.log('Mauvais nip : ', !uqamValidator.isNip('12547845'))
+
+console.log('Bon phone : ', uqamValidator.isTelephoneNordAmericain('(514)987-3000'))
+console.log('Mauvais phone : ', !uqamValidator.isTelephoneNordAmericain('12547845'))

@@ -4,7 +4,7 @@
   "description": "Ajoute des validations propres à L'UQAM tout en héritant de celle de validator",
   "main": "uqam-validator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node pseudoTest.js"
   },
   "repository": {
     "type": "git",
