@@ -9,7 +9,7 @@ validator.isCodePostalCanadien = (data) ->
   return new RegExp('^[ABCEGHJKLMNPRSTVXY]{1}[0-9]{1}[A-Z]{1} [0-9]{1}[A-Z]{1}[0-9]{1}$').test(data)
 
 validator.isCodePermanent = (data) ->
-  return new RegExp('^[a-zA-Z]{4}[\d]{6}(?:[\d]{2})?$').test(data)
+  return new RegExp('^[a-zA-Z]{4}[0-9]{6}(?:[0-9]{2})?$').test(data)
 
 validator.isNip = (data) ->
   return new RegExp('^[0-9]{5}$').test(data)
