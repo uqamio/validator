@@ -17,7 +17,7 @@
   };
 
   validator.isCodePermanent = function(data) {
-    return new RegExp('^[a-zA-Z]{4}\d{6}(?:\d{2})?$').test(data);
+    return new RegExp('^[a-zA-Z]{4}[\d]{6}(?:[\d]{2})?$').test(data);
   };
 
   validator.isNip = function(data) {
