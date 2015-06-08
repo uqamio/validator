@@ -1,6 +1,6 @@
 {
   "name": "uqam-validator",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Ajoute des validations propres à L'UQAM tout en héritant de celle de validator",
   "main": "uqam-validator.js",
   "scripts": {
